@@ -12,3 +12,82 @@
     --colorRojo: #FF5151;
     --colorGris: #9A9A9A;
 }
+
+.container {
+    margin: 0 10px;
+}
+
+.container__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.icon__bar__nav, .icon__arrow {
+    font-size: 1.3em;
+    color: var(--colorPrincipal);
+}
+
+.title__web {
+    font-family: var(--textTitle);
+    font-size: 1.5em;
+    color: var(--colorPrincipal);
+}
+
+.img__banner {
+    width: 100%;
+}
+
+.cite__biblica, .fil {
+    display: block;
+    text-align: center;
+}
+
+.cite__biblica {
+    margin-top: 10px;
+}
+
+.container__aptitudes {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aptitudes__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aptitudes__box__2 {
+    flex-direction: row-reverse;
+}
+
+.title__box {
+    flex-basis: 160px;
+    font-family: var(--textSubTitle);
+}
+
+.paragraph {
+    flex-basis: 170px;
+    text-align: justify;
+    font-family: var(--textNormal);
+}
+
+.container__footer {
+    text-align: center;
+}
+
+.list__redes__sociales {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.icon__redes {
+    font-size: 1.5em;
+    color: var(--colorPrincipal);
+}
