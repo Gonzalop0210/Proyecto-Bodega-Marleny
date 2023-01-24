@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --textTitle: 'Unbounded', cursive;
+    --textSubTitle: 'Righteous', cursive;
+    --textNormal: 'Josefin Sans', sans-serif;
+    --colorPrincipal: #D6680B;
+    --colorRojo: #FF5151;
+    --colorGris: #9A9A9A;
+}
