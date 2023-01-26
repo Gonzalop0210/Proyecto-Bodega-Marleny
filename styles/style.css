@@ -11,6 +11,9 @@
     --colorPrincipal: #D6680B;
     --colorRojo: #FF5151;
     --colorGris: #9A9A9A;
+    --colorVerde: #25d366;
+    --colorMessenger: #00b2f2;
+    --colorFacebook: #1877f2;
 }
 
 .container {
@@ -21,14 +24,54 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .icon__bar__nav, .icon__arrow {
     font-size: 1.3em;
     color: var(--colorPrincipal);
 }
+
+/*------------------NAV------------------*/
+.list__nav__items {
+    background-color: var(--colorPrincipal);
+    color: #FFFFFF;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 30%;
+    padding-top: 30%;
+    padding-left: 7%;
+    font-family: var(--textSubTitle);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 1.5em;
+}
+
+.icon__equis {
+    position: absolute;
+    right: 10%;
+    top: 30px;
+    font-size: 2em;
+}
+
+.item__nav {
+    transition: .3s;
+}
+
+.item__nav:hover {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.navNone {
+    display: none;
+}
+/*------------------NAV------------------*/
 
 .title__web {
     font-family: var(--textTitle);
@@ -76,18 +119,43 @@
     text-align: justify;
     font-family: var(--textNormal);
 }
-
+/*---------------------------------FOOTER---------------------------------*/
 .container__footer {
     text-align: center;
+    margin-top: 70px;
 }
 
 .list__redes__sociales {
     list-style: none;
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .icon__redes {
-    font-size: 1.5em;
     color: var(--colorPrincipal);
+    font-size: 1.5em;
+    transition: .3s;
+}
+
+.icon__redes__WSP:hover {
+    color: var(--colorVerde);
+    cursor: pointer;
+}
+
+.icon__redes__FB:hover {
+    color: var(--colorFacebook);
+    cursor: pointer;
+}
+
+.icon__redes__MS:hover {
+    color: var(--colorMessenger);
+    cursor: pointer;
+}
+
+.foot__final {
+    font-family: var(--textNormal);
+    font-size: .8em;
 }
