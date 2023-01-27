@@ -68,6 +68,11 @@
     cursor: pointer;
 }
 
+.link__nav {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .navNone {
     display: none;
 }
