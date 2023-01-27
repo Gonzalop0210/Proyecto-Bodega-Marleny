@@ -1,0 +1,36 @@
+:root {
+    --textTitle: 'Unbounded', cursive;
+    --textSubTitle: 'Righteous', cursive;
+    --textNormal: 'Josefin Sans', sans-serif;
+    --colorPrincipal: #D6680B;
+    --colorRojo: #FF5151;
+    --colorGris: #9A9A9A;
+    --colorVerde: #25d366;
+    --colorMessenger: #00b2f2;
+    --colorFacebook: #1877f2;
+}
+
+.avisoImportant {
+    position: absolute;
+    color: var(--colorRojo);
+    font-weight: bold;
+    font-size: .6em;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 81.5%;
+    font-family: var(--textNormal);
+}
+
+.container__productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box__producto {
+    border: 2px solid var(--colorGris);
+    min-width: 250px;
+    min-height: 350px;
+}

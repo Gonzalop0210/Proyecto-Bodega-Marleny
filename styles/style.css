@@ -16,6 +16,10 @@
     --colorFacebook: #1877f2;
 }
 
+body {
+    min-height: 100vh;
+}
+
 .container {
     margin: 0 10px;
 }
