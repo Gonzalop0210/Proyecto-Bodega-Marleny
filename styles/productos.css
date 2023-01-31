@@ -26,11 +26,39 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .box__producto {
     border: 2px solid var(--colorGris);
+    border-radius: 10px;
     min-width: 250px;
     min-height: 350px;
+}
+
+/*----------------------Links de los productos----------------------*/
+.list__items__products {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    line-height: 10px;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.link__product {
+    color: var(--colorGris);
+    text-decoration: none;
+    font-family: var(--textNormal);
+}
+
+.link__product:hover {
+    color: var(--colorPrincipal);
+}
+
+.cambia__color {
+    color: var(--colorPrincipal);
+    font-weight: bold;
 }
