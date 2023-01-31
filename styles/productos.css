@@ -27,6 +27,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .box__producto {
@@ -34,6 +35,28 @@
     border-radius: 10px;
     min-width: 250px;
     min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__price__name__product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.name__product {
+    font-family: var(--textNormal);
+}
+
+.price__product {
+    font-family: var(--textNormal);
+    color: var(--colorPrincipal);
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 /*----------------------Links de los productos----------------------*/
