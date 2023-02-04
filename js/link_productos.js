@@ -66,6 +66,7 @@ frutas.addEventListener('click', () => {
     mascotas.classList.remove('cambia__color');
     frutas.classList.add('cambia__color');
 
+    container__main.innerHTML = '';
     for(product of frutasArray) {
         const div__box__product = document.createElement('div');
         div__box__product.classList.add('box__producto');
