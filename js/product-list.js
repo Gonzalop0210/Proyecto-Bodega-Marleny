@@ -95,3 +95,13 @@ vegetalesArray.push({
     nombre: 'Zapallo',
     precio: 0.5,
 });
+
+/*------------------FRUTAS--------------------*/
+
+const frutasArray = [];
+
+frutasArray.push({
+    img: '../img/Frutas/durazno.jpg',
+    nombre: 'Durazno',
+    precio: 5.0,
+});

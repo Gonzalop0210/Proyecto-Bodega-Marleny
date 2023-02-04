@@ -65,6 +65,33 @@ frutas.addEventListener('click', () => {
     salud.classList.remove('cambia__color');
     mascotas.classList.remove('cambia__color');
     frutas.classList.add('cambia__color');
+
+    for(product of frutasArray) {
+        const div__box__product = document.createElement('div');
+        div__box__product.classList.add('box__producto');
+
+        //Para crear elementos, en éste caso una img
+        const img__img__product = document.createElement('img');
+        //Para cambiar las propiedades, en éste caso el src del img
+        img__img__product.setAttribute('src', product.img);
+        img__img__product.classList.add('img__product');
+
+        const price__name__container = document.createElement('div');
+        price__name__container.classList.add('container__price__name__product');
+
+        const name__product = document.createElement('h3');
+        name__product.innerHTML = product.nombre;
+        name__product.classList.add('name__product');
+
+        const price__product = document.createElement('h4');
+        price__product.innerHTML = 'Precio: S/' + product.precio + ' un';
+        price__product.classList.add('price__product');
+
+        price__name__container.append(name__product, price__product);
+        div__box__product.append(img__img__product, price__name__container);
+        container__main.appendChild(div__box__product);
+    }
+    
 });
 
 limpieza.addEventListener('click', () => {
