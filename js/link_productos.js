@@ -26,6 +26,7 @@ vegetales.addEventListener('click', () => {
     frutas.classList.remove('cambia__color')
     vegetales.classList.add('cambia__color');
 
+    container__main.innerHTML = '';
     for(product of vegetalesArray) {
         const div__box__product = document.createElement('div');
         div__box__product.classList.add('box__producto');
