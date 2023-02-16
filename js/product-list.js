@@ -148,7 +148,7 @@ frutasArray.push({
     precio: 0.4,
 });
 
-/*-----------------------------ABARROTES-----------------------------*/
+/*-----------------------------LIMPIEZA-----------------------------*/
 const limpiezaArray = [];
 
 limpiezaArray.push({
@@ -377,4 +377,106 @@ limpiezaArray.push({
     img: '../img/Limpieza/ultrex.jpg',
     nombre: 'Detergente Ultrex 450gr',
     precio: 4.0,
+});
+
+/*------------------------------------CARNES------------------------------------*/
+const carnesArray = [];
+
+carnesArray.push({
+    img: '../img/Carnes/polloEntero.jpg',
+    nombre: 'Pollo entero',
+    precio: 12.0,
+});
+
+/*----------------------------------ABARROTES----------------------------------*/
+const abarrotesArray = [];
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/aceiteDeleite.jpg',
+    nombre: 'Aceite Deleite',
+    precio: 11.50,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/aceiteMirasol.jpg',
+    nombre: 'Aceite Mirasol',
+    precio: 8.50,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/aceitePatronaLitro.jpg',
+    nombre: 'Aceite Patrona',
+    precio: 10.50,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/aceitePatronaMedioLitro.jpg',
+    nombre: 'Aceite Patrona 1/2 litro',
+    precio: 6.0,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/aceitePrimor.jpg',
+    nombre: 'Aceite primor',
+    precio: 11.50,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/ajinomen.jpg',
+    nombre: 'Ajinomen',
+    precio: 1.5,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/ajinomenDePollo.jpg',
+    nombre: 'Ajinomen de pollo',
+    precio: 1.5,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/ajinomenGallina.jpg',
+    nombre: 'Ajinomen de gallina',
+    precio: 1.5,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/ajinomix.jpg',
+    nombre: 'Ajinomix',
+    precio: 2.0,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/ajinoSillao.jpg',
+    nombre: 'Ajinosillao',
+    precio: 1.8,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/arverjaPartida.jpg',
+    nombre: 'Arverja partida 1/4',
+    precio: 2.0,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/atunCampomar.jpg',
+    nombre: 'Atún Campomar',
+    precio: 5.0,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/atunFlorida.jpg',
+    nombre: 'Atún Florida',
+    precio: 5.0,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/atunFloridaGrated.jpg',
+    nombre: 'Atún Florida Grated',
+    precio: 4.5,
+});
+
+abarrotesArray.push({
+    img: '../img/Abarrotes/atunFloridaTrocitos (1).jpg',
+    nombre: 'Atún Florida Trozitos',
+    precio: 5.5,
 });
